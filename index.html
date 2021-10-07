@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to KakaoTalk</title>
   </head>
   <body>
-    <div id="status_bar">
+    <div class="status_bar">
       <div class="status_bar_column">
         <span>No Service</span>
-        <!--To Do: WIFI Icon-->
+        <i class="fas fa-wifi"></i>
       </div>
       <div class="status_bar_column">
         <span>18:45</span>
       </div>
       <div class="status_bar_column">
         <span>110%</span>
-        <!--Battry Icon-->
-        <!--Ligntning Icon-->
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <header class="welcome to kakao clone">
+      <h1 class="welcome-header_title">Welcome to KakaoTalk</h1>
+      <p class="welcome-header_text">
+        If you have a Kakao Account log in with your email oooor phone number.
+      </p>
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="button" value="Log In" />
+      <input type="button" value="Sing Up" />
+      <a href="#">Find Kakao Account or Password</a>
+    </header>
+
+    <script
+      src="https://kit.fontawesome.com/45e8799908.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
